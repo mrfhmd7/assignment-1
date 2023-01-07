@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    
+}
+/* this will handle top section */
+.top-section{
+    background-image: url('../images/banner/banner3.png') ;
+
+    width: 1600px;
+height: 808px;
+
+}
+.top-section .head-writings{
+    text-align: right;
+}
+.top-section .heading{
+    font-weight: 700;
+    color: #FFFFFF;
+    padding: 216px 230px 24px 845px;
+    font-size: 65px;
+}
+.top-section .para{
+    font-weight: 400;
+font-size: 16px;
+color: #FFFFFF;
+padding: 0 230px 32px 876px;
+}
+
+.top-section .btn-primary{
+   margin: 0 230px 166px 1210px;
+   width: 160px;
+height: 64px;
+color: #005FAC;
+font-weight: 800;
+font-size: 15px;
+}
+/* 1st section styling */
+.first-section{
+    display:flex;
+    margin: 131px 322px 129px 206px;
+    
+}
+
+
+.image{
+    width: 569px;
+    height: 723.3px;
+    left: 264px;
+top: 966px;
+}
+.text-heading{
+    width: 288px;
+    
+    color: #151414;
+    margin: 229px 128px 0px 87px;
+}
+.section-para{
+    width: 416px;
+height: 90px;
+margin: 24px 264px 0px 87px;
+color: #444343;
+
+}
+.text .list{
+    margin: 0px 31px 0px 65px;
+    width: 349px;
+/* height: 162px; */
+}
+/* second section */
+.my-plans{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 230px;
+}
+.second-section-title{
+    text-align: center;
+   font-size: 40px;
+    
+}
+.plans-title{
+    padding: 20px 0;
+}
+/* below image section */
+.gradiants .btn-primary{
+    width: 160px;
+    height: 64px;
+    color: #005FAC;
+    font-weight: 600;
+font-size: 20px;
+margin-top: 24px;
+}
+.pic-with-gradiants{
+    background-image:linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%) , url('../images/watch.png');
+    
+    background-repeat: no-repeat;
+    width: 1140px;
+height: 300px;
+border-radius: 8px;
+margin: 130px 230px;
+
+
+}
+.gradiants{
+    padding: 59px 617px 59px 64px;
+}
+/* footer */
+.footer{
+    width: 1600px;
+    height: 577px;
+background: #151414;
+margin-top: 130px;
+display: flex;
+
+}
+.subscribe{
+    padding: 130px 229px 223px 0;
+    color: white;
+}
+.future{
+    padding: 130px 331px 130px 230px;
+    color: white;
+}
+.footer .minor-para{
+    padding-top: 20px;
+}
+.footer .links{
+    padding-top: 25px;
+}
+.subscribe .another-head{
+    padding-bottom: 30px;
+}
+.subscribe input{
+    width: 300px;
+height: 50px;
+border: 1px solid #FFFFFF;
+border-radius: 8px;
+background-color: black;
+padding-left: 20px;
+}
+.subscribe button{
+    margin-top: 16px;
+    width: 170.11px;
+height: 64px;
+background: #005FAC;
+border-radius: 8px;
+color: #FFFFFF;
+font-weight: 600;
+font-size: 20px
+}
